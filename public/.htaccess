@@ -5,6 +5,9 @@
 
     RewriteEngine On
 
+    # Set the base URL (Important when Laravel is in a subdirectory)
+    RewriteBase /nursing-council/public
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -19,4 +22,3 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
-

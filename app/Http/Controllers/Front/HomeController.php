@@ -13,7 +13,6 @@ use App\Models\PagesContent;
 use App\Models\Slide;
 use App\Models\Slider;
 use Illuminate\Http\Request;
-use function GuzzleHttp\Promise\all;
 
 class HomeController extends Controller
 {
