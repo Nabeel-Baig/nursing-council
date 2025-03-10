@@ -8,6 +8,7 @@
     # If Laravel is in a subfolder like "nursing/public", set the correct base
     RewriteBase /nursing/public
 
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -27,4 +28,5 @@
         Order Allow,Deny
         Deny from all
     </FilesMatch>
+
 </IfModule>
