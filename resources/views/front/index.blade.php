@@ -76,8 +76,8 @@
                             Appointments are for two years, after which each member is eligible for reappointment. The Minister is responsible for appointing a Chairman from among the members. Additionally, there is a Nursing Appeal Tribunal, which investigates grievances, this tribunal comprises of a chairman, and two other members appointed by the minister. </p>
                         </div>
                         <!--<p>{!! $homeIntro->detail ?? ''!!}</p>-->
-                       
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -92,9 +92,9 @@
                                 <li>Registration Committee</li>
                                 <li>Standards and Practice Committee</li>
                                 <li>Discipline and Penal Cases Committee </li>
-                                
+
                             </ol>
-                          <p> 
+                          <p>
                         </p>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                               <li>Regulating the practice of midwifery and prescribing the powers and duties of Supervisors of Midwifery in any district.</li>
                               <li>Enforcing any other matter or thing which is required by the Act.</li>
                             </ul>
-                          <p> 
+                          <p>
                         </p>
                 </div>
             </div>
@@ -138,78 +138,10 @@
                     Provide the legal framework to control education, training and practice of nurses and Midwives in the Commonwealth of The Bahamas. Establish and monitor the standards of professional Nursing and Midwifery through on-going collaboration with statutory accreditation body, Nursing schools and Health Professionals.
                     </p>
                 </div>
-                <!--<div class="col-lg-4 col-md-6 col-sm-12 text-end centerBTN">-->
-                <!--    <a href="javascript:void(0)" class="btn mainThemeBtn shadow">More about our work </a>-->
-                <!--</div>-->
             </div>
         </div>
-        <!--<div class="container">-->
-        <!--    <div class="row">-->
-        <!--        <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-up" data-aos-duration="1000">-->
-        <!--            <div class="processCard">-->
-        <!--                <div class="banner">-->
-        <!--                    <img src="{{ asset("assets/uploads/page-info/pic 5.jfif") }}" alt="Appointments" title="Appointments">-->
-        <!--                </div>-->
-        <!--                <a href="javascript:void(0)" class="btn mainThemeBtn shadow">Appointments</a>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-up" data-aos-duration="1500">-->
-        <!--            <div class="processCard">-->
-        <!--                <div class="banner">-->
-        <!--                    <img src="{{ asset("assets/uploads/page-info/pic 4.png") }}" alt="Service & Care" title="Service & Care">-->
-        <!--                </div>-->
-        <!--                <a href="javascript:void(0)" class="btn mainThemeBtn shadow">Service & Care</a>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-up" data-aos-duration="2000">-->
-        <!--            <div class="processCard">-->
-        <!--                <div class="banner">-->
-        <!--                    <img src="{{ asset("assets/uploads/page-info/pic 6.jfif") }}" alt="Expert Nurse" title="Expert Nurse">-->
-        <!--                </div>-->
-        <!--                <a href="javascript:void(0)" class="btn mainThemeBtn shadow">Expert Nurse</a>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</div>-->
+
     </section>
-
-
-    <!--<section class="aboutSection">-->
-    <!--    <div class="container">-->
-
-    <!--    </div>-->
-    <!--</section>-->
-
-    <!--<section class="sliderSection">-->
-    <!--    <div class="container">-->
-    <!--    <div class="row" data-aos="flip-up">-->
-    <!--            <div class="col-lg-12 col-md-12 col-sm-12 text-center aboutData">-->
-    <!--                <h3>Find out more</h3>-->
-    <!--                <h4>About our work and role</h4>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <div class="row" data-aos="zoom-out">-->
-    <!--            <div class="col-lg-12 col-md-12 col-sm-12">-->
-                    <!--<div class="aboutSlider">-->
-                        <!--@foreach ($slides as $slide)-->
-                        <!--<div class="aboutSliderData">-->
-                        <!--    <div class="banner">-->
-                        <!--        <img src="{{ asset($slide->slide_image) }}" alt="Coronavirus (Covid-19)" title="Coronavirus (Covid-19)">-->
-                        <!--    </div>-->
-                        <!--    <div class="col-lg-8 col-md-12 col-sm-12 data">-->
-                        <!--        <h3>{{ $slide->slide_title }}</h3>-->
-                        <!--        <h4>{{ $slide->slide_sub_title }}</h4>-->
-                        <!--        <div class="quote">-->
-                        <!--            <p>{{ $slide->slide_details }}</p>-->
-                        <!--        </div>-->
-                        <!--    </div>-->
-                        <!--</div>-->
-                        <!--@endforeach-->
-                    <!--</div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
 
 
     <section class="newsSection">
@@ -221,7 +153,7 @@
                 </div>
             </div>
             <div class="row">
-                    
+
                 <div class="col-lg-4 col-md-12 col-sm-12"  data-aos="fade-up">
                     <div class="signleNews">
                 <a href="{{ $mainNews->web_link ?? '#'}}" newsLinks target="_blank">

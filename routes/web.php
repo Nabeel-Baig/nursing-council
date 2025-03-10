@@ -32,8 +32,6 @@ use App\Http\Controllers\Admin\FormController;
 use App\Http\Controllers\Admin\RequestDocumentController;
 use App\Http\Controllers\Front\HomeController as FrontHomeController;
 use App\Http\Controllers\HomeController;
-use App\Models\Role;
-use App\Models\User;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -220,6 +218,3 @@ Route::get('events', [FrontHomeController::class, 'events']);
 Route::get('{any}', [App\Http\Controllers\Front\HomeController::class, 'home'])->name('home');
 //Language Translation
 Route::get('index/{locale}', [App\Http\Controllers\HomeController::class, 'lang']);
-
-
-// password = $2y$10$w49Ze24K4nFdD61T.JvBb.RbWmj3ttiXT/ojde.tjCO...
