@@ -41,7 +41,7 @@
 
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ url('/home') }}">
+        <a class="navbar-brand" href="{{ url('/') }}">
             <!--<img src="{{ asset("front_assets/nursing-council.png") }}" alt="The Nursing Council" title="The Nursing Council">-->
             <img src="{{ asset("front_assets/nursing_new127.png") }}" alt="The Nursing Council"
                  title="The Nursing Council">
