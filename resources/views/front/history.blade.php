@@ -36,11 +36,13 @@
                                 <li>Mrs. Ruby Nottage</li>
                                 <li>*Mrs. Beverly Ford, Registrar</li>
                             </ul>
-
+                            <img src="{{ asset('assets/images/history/nursing_council_org_chart.png')  }}" alt="">
                             <h4 class="fw-bold mt-4">Bird’s Eye View of Nurses: Footprint by Hilda V. Bowen M.B.E.</h4>
                             <p>The basis to which the Council was created remains the reason for its operation to date. It remains invested in protecting citizens and all who require healthcare services within the country.</p>
                             <p>In 1971, Student Nurse Dorothy Hepburn nee Morris designed a proposed seal for the Council which was approved by the late Honorable Minister of Health, Mr. Loftus Roker. The work of Mrs. Hepburn nee Morris continues to be seen on all official documents released by the Council. Registration certificates signed by the Chairman and the Registrar are sealed with this seal that depicts two hands holding a conch shell topped by a flame. According to its originator, the hands represent healing hands and compassionate care, the conch shell represents The Bahamas as a country, and the flame signifies Florence Nightingale.</p>
                             <p>The picture below is the presentation of the seal to the first Chairman of the Council, Ms. Hilda Bowen.</p>
+                            <img src="{{ asset('assets/images/history/nursing_council_org_chart.png')  }}" alt="">
+                            <img src="{{ asset('assets/images/history/logo_sketch.png')  }}" alt="">
                             <p>The Nursing Council pin has the image of the seal incorporated in it.</p>
                         </div>
                     </div>
@@ -60,7 +62,6 @@
                     </div>
                     <div class="modal-body">
                         <iframe src="https://www.youtube.com/embed/gXaZ2U_BuoE" title="YouTube video player"
-                                frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen>
                         </iframe>
